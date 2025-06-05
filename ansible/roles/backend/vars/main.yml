@@ -1,0 +1,4 @@
+# vars file for roles/backend
+docker_image: salahmo25/backend:latest
+app_port: 8000
+container_name: backend_app

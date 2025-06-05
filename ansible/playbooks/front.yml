@@ -1,0 +1,7 @@
+- name: Deploy React App
+  hosts: frontend
+  become: yes
+  vars_files:
+    - ../roles/frontend/vars/main.yml
+  roles:
+    - frontend

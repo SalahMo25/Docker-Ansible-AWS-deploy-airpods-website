@@ -1,0 +1,24 @@
+# tasks file for roles/frontend
+- name: Pull frontend Docker image
+  docker_image:
+    name: "{{ docker_image }}"
+    source: pull
+- name: Stop existing container if running
+  docker_container:
+    name: "{{ container_name }}"
+    state: stopped
+  ignore_errors: true
+- name: Remove existing container
+  docker_container:
+    name: "{{ container_name }}"
+    state: absent
+  ignore_errors: true
+- name: Run frontend container
+  docker_container:
+    name: "{{ container_name }}"
+    image: "{{ docker_image }}"
+    state: started
+    restart_policy: always
+    published_ports:
+      - "{{ app_port }}:80"
+  notify: Restart Docker

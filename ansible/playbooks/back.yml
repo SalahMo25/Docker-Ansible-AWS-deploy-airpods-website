@@ -1,0 +1,7 @@
+- name: Deploy Django App
+  hosts: backend
+  become: yes
+  vars_files:
+    - ../roles/backend/vars/main.yml
+  roles:
+    - backend

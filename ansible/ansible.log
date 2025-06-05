@@ -1,0 +1,912 @@
+2025-06-04 05:02:59,309 p=6013 u=ubuntu n=ansible | frontend-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname public_ip_1: Name or service not known",
+    "unreachable": true
+}
+2025-06-04 05:02:59,312 p=6013 u=ubuntu n=ansible | frontend-2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname public_ip_2: Name or service not known",
+    "unreachable": true
+}
+2025-06-04 05:02:59,321 p=6013 u=ubuntu n=ansible | backend-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname private_ip_1: Name or service not known",
+    "unreachable": true
+}
+2025-06-04 05:02:59,326 p=6013 u=ubuntu n=ansible | backend-2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname private_ip_2: Name or service not known",
+    "unreachable": true
+}
+2025-06-04 05:09:34,026 p=6396 u=ubuntu n=ansible | frontend-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname public_ip_1: Name or service not known",
+    "unreachable": true
+}
+2025-06-04 05:09:34,051 p=6396 u=ubuntu n=ansible | frontend-2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname public_ip_2: Name or service not known",
+    "unreachable": true
+}
+2025-06-04 05:09:34,065 p=6396 u=ubuntu n=ansible | backend-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname private_ip_1: Name or service not known",
+    "unreachable": true
+}
+2025-06-04 05:09:34,072 p=6396 u=ubuntu n=ansible | backend-2 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname private_ip_2: Name or service not known",
+    "unreachable": true
+}
+2025-06-04 05:12:37,724 p=6532 u=ubuntu n=ansible | 10.0.0.140 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:13:17,029 p=6622 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible/inventories/inventory.ini
+with ini plugin: /home/ubuntu/ansible/inventories/inventory.ini:12: Expected
+key=value host variable assignment, got: 10.0.0.140
+
+2025-06-04 05:13:17,029 p=6622 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible/inventories/inventory.ini as an
+inventory source
+
+2025-06-04 05:13:17,029 p=6622 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-06-04 05:13:17,033 p=6622 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-06-04 05:13:55,113 p=6651 u=ubuntu n=ansible | 10.0.0.140 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:13:55,187 p=6651 u=ubuntu n=ansible | 10.0.0.209 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:21:49,052 p=7711 u=ubuntu n=ansible | frontend-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:21:49,054 p=7711 u=ubuntu n=ansible | frontend-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:21:53,029 p=7711 u=ubuntu n=ansible | 10.0.0.140 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:21:53,031 p=7711 u=ubuntu n=ansible | 10.0.0.209 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:22:25,145 p=7867 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible/inventories/inventory.ini
+with ini plugin: /home/ubuntu/ansible/inventories/inventory.ini:17: Expected
+key=value host variable assignment, got: 10.0.0.140
+
+2025-06-04 05:22:25,145 p=7867 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible/inventories/inventory.ini as an
+inventory source
+
+2025-06-04 05:22:25,145 p=7867 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-06-04 05:22:25,149 p=7867 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-06-04 05:23:00,273 p=7898 u=ubuntu n=ansible | backend-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:23:00,312 p=7898 u=ubuntu n=ansible | backend-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:23:00,675 p=7898 u=ubuntu n=ansible | frontend-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:23:00,824 p=7898 u=ubuntu n=ansible | frontend-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:23:14,166 p=8063 u=ubuntu n=ansible | [WARNING]:  * Failed to parse /home/ubuntu/ansible/inventories/inventory.ini
+with ini plugin: /home/ubuntu/ansible/inventories/inventory.ini:21: Section
+[private:vars] not valid for undefined group: private
+
+2025-06-04 05:23:14,166 p=8063 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible/inventories/inventory.ini as an
+inventory source
+
+2025-06-04 05:23:14,166 p=8063 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-06-04 05:23:14,171 p=8063 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2025-06-04 05:23:33,476 p=8096 u=ubuntu n=ansible | frontend-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:23:33,507 p=8096 u=ubuntu n=ansible | frontend-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:23:34,716 p=8096 u=ubuntu n=ansible | backend-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:23:34,722 p=8096 u=ubuntu n=ansible | backend-2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-06-04 05:33:07,220 p=8842 u=ubuntu n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ubuntu/ansible/playbooks/setup.yml': line 2, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+--
+name: install docker
+    ^ here
+
+2025-06-04 05:33:43,758 p=8939 u=ubuntu n=ansible | PLAY [install docker] **********************************************************
+2025-06-04 05:33:43,769 p=8939 u=ubuntu n=ansible | TASK [Gathering Facts] *********************************************************
+2025-06-04 05:33:55,600 p=8939 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:33:56,777 p=8939 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:33:59,787 p=8939 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:33:59,789 p=8939 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:33:59,856 p=8939 u=ubuntu n=ansible | TASK [common : Update apt cache] ***********************************************
+2025-06-04 05:34:15,968 p=8939 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:34:15,970 p=8939 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:34:17,461 p=8939 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:34:18,306 p=8939 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:34:18,325 p=8939 u=ubuntu n=ansible | TASK [common : Install required system packages] *******************************
+2025-06-04 05:34:32,757 p=8939 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:34:36,233 p=8939 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:34:36,742 p=8939 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:34:37,359 p=8939 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:34:37,374 p=8939 u=ubuntu n=ansible | TASK [common : Add Docker GPG key] *********************************************
+2025-06-04 05:34:44,132 p=8939 u=ubuntu n=ansible | fatal: [frontend-1]: FAILED! => {"changed": false, "msg": "Failed to download key at https://download.docker.com/linux/ubuntu/gpg: An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'"}
+2025-06-04 05:34:44,861 p=8939 u=ubuntu n=ansible | fatal: [frontend-2]: FAILED! => {"changed": false, "msg": "Failed to download key at https://download.docker.com/linux/ubuntu/gpg: An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'"}
+2025-06-04 05:34:45,052 p=8939 u=ubuntu n=ansible | fatal: [backend-1]: FAILED! => {"changed": false, "msg": "Failed to download key at https://download.docker.com/linux/ubuntu/gpg: An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'"}
+2025-06-04 05:34:45,148 p=8939 u=ubuntu n=ansible | fatal: [backend-2]: FAILED! => {"changed": false, "msg": "Failed to download key at https://download.docker.com/linux/ubuntu/gpg: An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'"}
+2025-06-04 05:34:45,150 p=8939 u=ubuntu n=ansible | PLAY RECAP *********************************************************************
+2025-06-04 05:34:45,151 p=8939 u=ubuntu n=ansible | backend-1                  : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:34:45,151 p=8939 u=ubuntu n=ansible | backend-2                  : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:34:45,151 p=8939 u=ubuntu n=ansible | frontend-1                 : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:34:45,151 p=8939 u=ubuntu n=ansible | frontend-2                 : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:36:52,400 p=9533 u=ubuntu n=ansible | PLAY [install docker] ***************************************************************************************************
+2025-06-04 05:36:52,417 p=9533 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-04 05:37:21,221 p=9533 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:37:25,204 p=9533 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:37:30,330 p=9533 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:37:32,081 p=9533 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:37:32,148 p=9533 u=ubuntu n=ansible | TASK [common : Update apt cache] ****************************************************************************************
+2025-06-04 05:37:51,610 p=9533 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:37:52,532 p=9533 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:37:53,250 p=9533 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:37:55,097 p=9533 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:37:55,116 p=9533 u=ubuntu n=ansible | TASK [common : Install required system packages] ************************************************************************
+2025-06-04 05:38:02,669 p=9533 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:38:02,936 p=9533 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:38:03,193 p=9533 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:38:03,202 p=9533 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:38:03,225 p=9533 u=ubuntu n=ansible | TASK [common : Download Docker GPG key] *********************************************************************************
+2025-06-04 05:38:09,848 p=9533 u=ubuntu n=ansible | fatal: [frontend-1]: FAILED! => {"changed": false, "dest": "/etc/apt/keyrings/docker.gpg", "elapsed": 0, "msg": "An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'", "url": "https://download.docker.com/linux/ubuntu/gpg"}
+2025-06-04 05:38:10,091 p=9533 u=ubuntu n=ansible | fatal: [frontend-2]: FAILED! => {"changed": false, "dest": "/etc/apt/keyrings/docker.gpg", "elapsed": 0, "msg": "An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'", "url": "https://download.docker.com/linux/ubuntu/gpg"}
+2025-06-04 05:38:10,453 p=9533 u=ubuntu n=ansible | fatal: [backend-1]: FAILED! => {"changed": false, "dest": "/etc/apt/keyrings/docker.gpg", "elapsed": 0, "msg": "An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'", "url": "https://download.docker.com/linux/ubuntu/gpg"}
+2025-06-04 05:38:10,755 p=9533 u=ubuntu n=ansible | fatal: [backend-2]: FAILED! => {"changed": false, "dest": "/etc/apt/keyrings/docker.gpg", "elapsed": 0, "msg": "An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'", "url": "https://download.docker.com/linux/ubuntu/gpg"}
+2025-06-04 05:38:10,757 p=9533 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-04 05:38:10,757 p=9533 u=ubuntu n=ansible | backend-1                  : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:38:10,757 p=9533 u=ubuntu n=ansible | backend-2                  : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:38:10,757 p=9533 u=ubuntu n=ansible | frontend-1                 : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:38:10,757 p=9533 u=ubuntu n=ansible | frontend-2                 : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:38:25,109 p=10186 u=ubuntu n=ansible | PLAY [install docker] ***********************************************************************************************
+2025-06-04 05:38:25,117 p=10186 u=ubuntu n=ansible | TASK [Gathering Facts] **********************************************************************************************
+2025-06-04 05:38:36,444 p=10186 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:38:37,112 p=10186 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:38:37,301 p=10186 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:38:37,498 p=10186 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:38:37,584 p=10186 u=ubuntu n=ansible | TASK [common : Update apt cache] ************************************************************************************
+2025-06-04 05:38:45,595 p=10186 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:38:45,900 p=10186 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:38:46,702 p=10186 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:38:46,704 p=10186 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:38:46,728 p=10186 u=ubuntu n=ansible | TASK [common : Install required system packages] ********************************************************************
+2025-06-04 05:38:54,381 p=10186 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:38:55,196 p=10186 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:38:55,800 p=10186 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:38:55,803 p=10186 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:38:55,815 p=10186 u=ubuntu n=ansible | TASK [common : Download Docker GPG key] *****************************************************************************
+2025-06-04 05:39:02,387 p=10186 u=ubuntu n=ansible | fatal: [frontend-1]: FAILED! => {"changed": false, "dest": "/etc/apt/keyrings/docker.gpg", "elapsed": 0, "msg": "An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'", "url": "https://download.docker.com/linux/ubuntu/gpg"}
+2025-06-04 05:39:02,802 p=10186 u=ubuntu n=ansible | fatal: [frontend-2]: FAILED! => {"changed": false, "dest": "/etc/apt/keyrings/docker.gpg", "elapsed": 0, "msg": "An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'", "url": "https://download.docker.com/linux/ubuntu/gpg"}
+2025-06-04 05:39:03,194 p=10186 u=ubuntu n=ansible | fatal: [backend-1]: FAILED! => {"changed": false, "dest": "/etc/apt/keyrings/docker.gpg", "elapsed": 0, "msg": "An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'", "url": "https://download.docker.com/linux/ubuntu/gpg"}
+2025-06-04 05:39:03,505 p=10186 u=ubuntu n=ansible | fatal: [backend-2]: FAILED! => {"changed": false, "dest": "/etc/apt/keyrings/docker.gpg", "elapsed": 0, "msg": "An unknown error occurred: HTTPSConnection.__init__() got an unexpected keyword argument 'cert_file'", "url": "https://download.docker.com/linux/ubuntu/gpg"}
+2025-06-04 05:39:03,506 p=10186 u=ubuntu n=ansible | PLAY RECAP **********************************************************************************************************
+2025-06-04 05:39:03,506 p=10186 u=ubuntu n=ansible | backend-1                  : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:39:03,506 p=10186 u=ubuntu n=ansible | backend-2                  : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:39:03,507 p=10186 u=ubuntu n=ansible | frontend-1                 : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:39:03,507 p=10186 u=ubuntu n=ansible | frontend-2                 : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:41:37,180 p=10951 u=ubuntu n=ansible | PLAY [install docker] **********************************************************************************************************
+2025-06-04 05:41:37,210 p=10951 u=ubuntu n=ansible | TASK [Gathering Facts] *********************************************************************************************************
+2025-06-04 05:41:50,173 p=10951 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:41:50,547 p=10951 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:41:52,691 p=10951 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:41:52,695 p=10951 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:41:52,766 p=10951 u=ubuntu n=ansible | TASK [common : Update apt cache] ***********************************************************************************************
+2025-06-04 05:42:01,680 p=10951 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:42:01,685 p=10951 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:42:01,696 p=10951 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:42:01,700 p=10951 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:42:01,713 p=10951 u=ubuntu n=ansible | TASK [common : Install required packages] **************************************************************************************
+2025-06-04 05:42:10,186 p=10951 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:42:10,194 p=10951 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:42:10,686 p=10951 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:42:10,688 p=10951 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:42:10,709 p=10951 u=ubuntu n=ansible | TASK [common : Create keyrings directory] **************************************************************************************
+2025-06-04 05:42:17,299 p=10951 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:42:17,548 p=10951 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:42:17,957 p=10951 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:42:17,965 p=10951 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:42:17,976 p=10951 u=ubuntu n=ansible | TASK [common : Download Docker GPG key using shell] ****************************************************************************
+2025-06-04 05:42:24,236 p=10951 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:42:24,353 p=10951 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:42:24,832 p=10951 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:42:25,024 p=10951 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:42:25,043 p=10951 u=ubuntu n=ansible | TASK [common : Add Docker repository] ******************************************************************************************
+2025-06-04 05:42:31,767 p=10951 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:42:31,793 p=10951 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:42:32,299 p=10951 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:42:32,303 p=10951 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:42:32,312 p=10951 u=ubuntu n=ansible | TASK [common : Update apt and install Docker] **********************************************************************************
+2025-06-04 05:42:56,916 p=10951 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:42:57,088 p=10951 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:42:57,280 p=10951 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:42:57,487 p=10951 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:42:57,514 p=10951 u=ubuntu n=ansible | TASK [common : Add user to docker group] ***************************************************************************************
+2025-06-04 05:43:05,017 p=10951 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 05:43:05,024 p=10951 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 05:43:05,292 p=10951 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 05:43:05,577 p=10951 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 05:43:05,600 p=10951 u=ubuntu n=ansible | TASK [common : Enable and start Docker] ****************************************************************************************
+2025-06-04 05:43:14,948 p=10951 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 05:43:15,291 p=10951 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 05:43:15,445 p=10951 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 05:43:15,527 p=10951 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 05:43:15,658 p=10951 u=ubuntu n=ansible | PLAY RECAP *********************************************************************************************************************
+2025-06-04 05:43:15,659 p=10951 u=ubuntu n=ansible | backend-1                  : ok=9    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:43:15,659 p=10951 u=ubuntu n=ansible | backend-2                  : ok=9    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:43:15,659 p=10951 u=ubuntu n=ansible | frontend-1                 : ok=9    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:43:15,660 p=10951 u=ubuntu n=ansible | frontend-2                 : ok=9    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 05:45:04,177 p=12128 u=ubuntu n=ansible | frontend-1 | CHANGED | rc=0 >>
+Docker version 28.2.2, build e6534b4
+
+2025-06-04 05:45:04,222 p=12128 u=ubuntu n=ansible | frontend-2 | CHANGED | rc=0 >>
+Docker version 28.2.2, build e6534b4
+
+2025-06-04 05:45:07,831 p=12128 u=ubuntu n=ansible | backend-2 | CHANGED | rc=0 >>
+Docker version 28.2.2, build e6534b4
+
+2025-06-04 05:45:08,048 p=12128 u=ubuntu n=ansible | backend-1 | CHANGED | rc=0 >>
+Docker version 28.2.2, build e6534b4
+
+2025-06-04 06:10:35,185 p=13674 u=ubuntu n=ansible | PLAY [install dockerand deploy frontend app] ****************************************************************************
+2025-06-04 06:10:35,201 p=13674 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-04 06:10:49,308 p=13674 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:10:49,310 p=13674 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:10:49,359 p=13674 u=ubuntu n=ansible | TASK [common : Update apt cache] ****************************************************************************************
+2025-06-04 06:10:58,805 p=13674 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:10:58,958 p=13674 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:10:58,969 p=13674 u=ubuntu n=ansible | TASK [common : Install required packages] *******************************************************************************
+2025-06-04 06:11:06,839 p=13674 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:11:06,840 p=13674 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:11:06,882 p=13674 u=ubuntu n=ansible | TASK [common : Create keyrings directory] *******************************************************************************
+2025-06-04 06:11:13,851 p=13674 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:11:13,853 p=13674 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:11:13,862 p=13674 u=ubuntu n=ansible | TASK [common : Download Docker GPG key using shell] *********************************************************************
+2025-06-04 06:11:20,716 p=13674 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:11:20,719 p=13674 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:11:20,737 p=13674 u=ubuntu n=ansible | TASK [common : Add Docker repository] ***********************************************************************************
+2025-06-04 06:11:27,476 p=13674 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:11:27,480 p=13674 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:11:27,504 p=13674 u=ubuntu n=ansible | TASK [common : Update apt and install Docker] ***************************************************************************
+2025-06-04 06:11:37,725 p=13674 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:11:37,917 p=13674 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:11:37,928 p=13674 u=ubuntu n=ansible | TASK [common : Add user to docker group] ********************************************************************************
+2025-06-04 06:11:44,484 p=13674 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:11:44,639 p=13674 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:11:44,650 p=13674 u=ubuntu n=ansible | TASK [common : Enable and start Docker] *********************************************************************************
+2025-06-04 06:11:53,086 p=13674 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:11:53,093 p=13674 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:11:53,115 p=13674 u=ubuntu n=ansible | TASK [Ensure Docker is installed] ***************************************************************************************
+2025-06-04 06:11:53,210 p=13674 u=ubuntu n=ansible | ERROR! the role 'docker' was not found in /home/ubuntu/ansible/playbooks/roles:/home/ubuntu/ansible/roles:/home/ubuntu/ansible/playbooks
+
+The error appears to be in '/home/ubuntu/ansible/roles/common/tasks/main.yml': line 44, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  include_role:
+    name: docker
+          ^ here
+
+2025-06-04 06:11:53,211 p=13674 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-04 06:11:53,211 p=13674 u=ubuntu n=ansible | frontend-1                 : ok=9    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 06:11:53,211 p=13674 u=ubuntu n=ansible | frontend-2                 : ok=9    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 06:16:56,759 p=14346 u=ubuntu n=ansible | PLAY [install docker and deploy frontend app] ***************************************************************************
+2025-06-04 06:16:56,780 p=14346 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-04 06:17:09,031 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:17:10,191 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:17:10,245 p=14346 u=ubuntu n=ansible | TASK [common : Update apt cache] ****************************************************************************************
+2025-06-04 06:17:18,361 p=14346 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:17:18,813 p=14346 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:17:18,838 p=14346 u=ubuntu n=ansible | TASK [common : Install required packages] *******************************************************************************
+2025-06-04 06:17:26,290 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:17:27,009 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:17:27,026 p=14346 u=ubuntu n=ansible | TASK [common : Create keyrings directory] *******************************************************************************
+2025-06-04 06:17:33,589 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:17:34,280 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:17:34,293 p=14346 u=ubuntu n=ansible | TASK [common : Download Docker GPG key using shell] *********************************************************************
+2025-06-04 06:17:40,640 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:17:41,074 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:17:41,165 p=14346 u=ubuntu n=ansible | TASK [common : Add Docker repository] ***********************************************************************************
+2025-06-04 06:17:47,996 p=14346 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:17:48,201 p=14346 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:17:48,209 p=14346 u=ubuntu n=ansible | TASK [common : Update apt and install Docker] ***************************************************************************
+2025-06-04 06:17:57,216 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:17:58,233 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:17:58,251 p=14346 u=ubuntu n=ansible | TASK [common : Add user to docker group] ********************************************************************************
+2025-06-04 06:18:04,795 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:18:05,507 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:18:05,522 p=14346 u=ubuntu n=ansible | TASK [common : Enable and start Docker] *********************************************************************************
+2025-06-04 06:18:13,810 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:18:14,965 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:18:15,101 p=14346 u=ubuntu n=ansible | TASK [Ensure Docker is installed] ***************************************************************************************
+2025-06-04 06:18:15,734 p=14346 u=ubuntu n=ansible | TASK [common : Update apt cache] ****************************************************************************************
+2025-06-04 06:18:24,976 p=14346 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:18:25,376 p=14346 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:18:25,399 p=14346 u=ubuntu n=ansible | TASK [common : Install required packages] *******************************************************************************
+2025-06-04 06:18:32,332 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:18:33,254 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:18:33,269 p=14346 u=ubuntu n=ansible | TASK [common : Create keyrings directory] *******************************************************************************
+2025-06-04 06:18:39,407 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:18:39,816 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:18:39,846 p=14346 u=ubuntu n=ansible | TASK [common : Download Docker GPG key using shell] *********************************************************************
+2025-06-04 06:18:45,659 p=14346 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:18:46,061 p=14346 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:18:46,086 p=14346 u=ubuntu n=ansible | TASK [common : Add Docker repository] ***********************************************************************************
+2025-06-04 06:18:52,408 p=14346 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:18:52,818 p=14346 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:18:52,848 p=14346 u=ubuntu n=ansible | TASK [common : Update apt and install Docker] ***************************************************************************
+2025-06-04 06:19:00,333 p=14346 u=ubuntu n=ansible |  [ERROR]: User interrupted execution
+
+2025-06-04 06:19:03,166 p=15231 u=ubuntu n=ansible | PLAY [install docker and deploy frontend app] ***************************************************************************
+2025-06-04 06:19:03,180 p=15231 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-04 06:19:13,530 p=15231 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:19:15,269 p=15231 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:19:15,320 p=15231 u=ubuntu n=ansible | TASK [common : Update apt cache] ****************************************************************************************
+2025-06-04 06:19:25,075 p=15231 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:19:25,900 p=15231 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:19:25,920 p=15231 u=ubuntu n=ansible | TASK [common : Install required packages] *******************************************************************************
+2025-06-04 06:19:33,267 p=15231 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:19:33,676 p=15231 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:19:33,694 p=15231 u=ubuntu n=ansible | TASK [common : Create keyrings directory] *******************************************************************************
+2025-06-04 06:19:40,436 p=15231 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:19:41,151 p=15231 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:19:41,176 p=15231 u=ubuntu n=ansible | TASK [common : Download Docker GPG key using shell] *********************************************************************
+2025-06-04 06:19:47,398 p=15231 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:19:47,808 p=15231 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:19:47,828 p=15231 u=ubuntu n=ansible | TASK [common : Add Docker repository] ***********************************************************************************
+2025-06-04 06:19:54,787 p=15231 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:19:55,488 p=15231 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:19:55,508 p=15231 u=ubuntu n=ansible | TASK [common : Update apt and install Docker] ***************************************************************************
+2025-06-04 06:20:05,524 p=15231 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:20:06,852 p=15231 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:20:06,872 p=15231 u=ubuntu n=ansible | TASK [common : Add user to docker group] ********************************************************************************
+2025-06-04 06:20:12,640 p=15231 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:20:14,043 p=15231 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:20:14,064 p=15231 u=ubuntu n=ansible | TASK [common : Enable and start Docker] *********************************************************************************
+2025-06-04 06:20:22,032 p=15231 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:20:24,065 p=15231 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:20:24,077 p=15231 u=ubuntu n=ansible | TASK [common : Pull frontend Docker image] ******************************************************************************
+2025-06-04 06:20:33,478 p=15231 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:20:34,399 p=15231 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:20:34,423 p=15231 u=ubuntu n=ansible | TASK [common : Stop existing container if running] **********************************************************************
+2025-06-04 06:20:41,826 p=15231 u=ubuntu n=ansible | fatal: [frontend-2]: FAILED! => {"changed": false, "msg": "Cannot create container when image is not specified!"}
+2025-06-04 06:20:41,826 p=15231 u=ubuntu n=ansible | ...ignoring
+2025-06-04 06:20:42,994 p=15231 u=ubuntu n=ansible | fatal: [frontend-1]: FAILED! => {"changed": false, "msg": "Cannot create container when image is not specified!"}
+2025-06-04 06:20:42,995 p=15231 u=ubuntu n=ansible | ...ignoring
+2025-06-04 06:20:43,018 p=15231 u=ubuntu n=ansible | TASK [common : Remove existing container] *******************************************************************************
+2025-06-04 06:20:50,989 p=15231 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:20:51,914 p=15231 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:20:51,938 p=15231 u=ubuntu n=ansible | TASK [common : Run frontend container] **********************************************************************************
+2025-06-04 06:21:00,583 p=15231 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:21:01,876 p=15231 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:21:02,238 p=15231 u=ubuntu n=ansible | RUNNING HANDLER [common : Restart Docker] *******************************************************************************
+2025-06-04 06:21:10,760 p=15231 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:21:12,385 p=15231 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:21:12,424 p=15231 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-04 06:21:12,425 p=15231 u=ubuntu n=ansible | frontend-1                 : ok=14   changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2025-06-04 06:21:12,425 p=15231 u=ubuntu n=ansible | frontend-2                 : ok=14   changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2025-06-04 06:45:07,285 p=16595 u=ubuntu n=ansible | {
+    "_meta": {
+        "hostvars": {
+            "backend-1": {
+                "ansible_host": "10.0.0.140",
+                "ansible_ssh_common_args": "-o ProxyCommand=\"ssh -i ~/.ssh/my-pem.pem ubuntu@3.215.185.144 -W %h:%p\"",
+                "ansible_ssh_private_key_file": "~/.ssh/my-pem.pem",
+                "ansible_user": "ubuntu"
+            },
+            "backend-2": {
+                "ansible_host": "10.0.0.209",
+                "ansible_ssh_common_args": "-o ProxyCommand=\"ssh -i ~/.ssh/my-pem.pem ubuntu@3.215.185.144 -W %h:%p\"",
+                "ansible_ssh_private_key_file": "~/.ssh/my-pem.pem",
+                "ansible_user": "ubuntu"
+            },
+            "frontend-1": {
+                "ansible_host": "3.215.185.144",
+                "ansible_user": "ubuntu"
+            },
+            "frontend-2": {
+                "ansible_host": "44.211.66.49",
+                "ansible_user": "ubuntu"
+            }
+        }
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "frontend",
+            "backend"
+        ]
+    },
+    "backend": {
+        "hosts": [
+            "backend-1",
+            "backend-2"
+        ]
+    },
+    "frontend": {
+        "hosts": [
+            "frontend-1",
+            "frontend-2"
+        ]
+    }
+}
+2025-06-04 06:46:36,073 p=16724 u=ubuntu n=ansible | - Role roles/frontend was created successfully
+2025-06-04 06:53:24,738 p=17323 u=ubuntu n=ansible | ERROR! the playbook: playbooks/front.yml could not be found
+2025-06-04 06:54:46,015 p=17500 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-04 06:54:46,038 p=17500 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-04 06:54:58,316 p=17500 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:54:59,335 p=17500 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:54:59,400 p=17500 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-04 06:55:06,323 p=17500 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-04 06:55:07,096 p=17500 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-04 06:55:07,116 p=17500 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-04 06:55:14,884 p=17500 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:55:15,702 p=17500 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:55:15,730 p=17500 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-04 06:55:23,117 p=17500 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:55:23,884 p=17500 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:55:23,903 p=17500 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-04 06:55:31,575 p=17500 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:55:32,391 p=17500 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:55:32,470 p=17500 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-04 06:55:40,998 p=17500 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-04 06:55:42,322 p=17500 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-04 06:55:42,383 p=17500 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-04 06:55:42,384 p=17500 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 06:55:42,384 p=17500 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 06:56:13,635 p=17993 u=ubuntu n=ansible | - Role roles/backend was created successfully
+2025-06-04 06:59:40,158 p=18314 u=ubuntu n=ansible | PLAY [Deploy Django App] ************************************************************************************************
+2025-06-04 06:59:40,174 p=18314 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-04 06:59:56,915 p=18314 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 06:59:56,919 p=18314 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 06:59:56,969 p=18314 u=ubuntu n=ansible | TASK [backend : Pull Backend Docker image] ******************************************************************************
+2025-06-04 07:00:05,911 p=18314 u=ubuntu n=ansible | fatal: [backend-1]: FAILED! => {"changed": false, "msg": "Error pulling image salahmo25/backendend:latest - 404 Client Error for http+docker://localhost/v1.50/images/create?tag=latest&fromImage=salahmo25%2Fbackendend: Not Found (\"pull access denied for salahmo25/backendend, repository does not exist or may require 'docker login': denied: requested access to the resource is denied\")"}
+2025-06-04 07:00:05,912 p=18314 u=ubuntu n=ansible | fatal: [backend-2]: FAILED! => {"changed": false, "msg": "Error pulling image salahmo25/backendend:latest - 404 Client Error for http+docker://localhost/v1.50/images/create?tag=latest&fromImage=salahmo25%2Fbackendend: Not Found (\"pull access denied for salahmo25/backendend, repository does not exist or may require 'docker login': denied: requested access to the resource is denied\")"}
+2025-06-04 07:00:05,915 p=18314 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-04 07:00:05,915 p=18314 u=ubuntu n=ansible | backend-1                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 07:00:05,916 p=18314 u=ubuntu n=ansible | backend-2                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 07:01:55,519 p=18964 u=ubuntu n=ansible | PLAY [Deploy Django App] *********************************************************************************
+2025-06-04 07:01:55,530 p=18964 u=ubuntu n=ansible | TASK [Gathering Facts] ***********************************************************************************
+2025-06-04 07:02:12,384 p=18964 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 07:02:12,388 p=18964 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 07:02:12,434 p=18964 u=ubuntu n=ansible | TASK [backend : Pull Backend Docker image] ***************************************************************
+2025-06-04 07:02:21,490 p=18964 u=ubuntu n=ansible | fatal: [backend-2]: FAILED! => {"changed": false, "msg": "Error pulling image salahmo25/backendend:latest - 404 Client Error for http+docker://localhost/v1.50/images/create?tag=latest&fromImage=salahmo25%2Fbackendend: Not Found (\"pull access denied for salahmo25/backendend, repository does not exist or may require 'docker login': denied: requested access to the resource is denied\")"}
+2025-06-04 07:02:21,494 p=18964 u=ubuntu n=ansible | fatal: [backend-1]: FAILED! => {"changed": false, "msg": "Error pulling image salahmo25/backendend:latest - 404 Client Error for http+docker://localhost/v1.50/images/create?tag=latest&fromImage=salahmo25%2Fbackendend: Not Found (\"pull access denied for salahmo25/backendend, repository does not exist or may require 'docker login': denied: requested access to the resource is denied\")"}
+2025-06-04 07:02:21,501 p=18964 u=ubuntu n=ansible | PLAY RECAP ***********************************************************************************************
+2025-06-04 07:02:21,502 p=18964 u=ubuntu n=ansible | backend-1                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 07:02:21,502 p=18964 u=ubuntu n=ansible | backend-2                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-04 07:02:46,727 p=19176 u=ubuntu n=ansible | PLAY [Deploy Django App] *********************************************************************************
+2025-06-04 07:02:46,737 p=19176 u=ubuntu n=ansible | TASK [Gathering Facts] ***********************************************************************************
+2025-06-04 07:02:58,969 p=19176 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 07:02:58,971 p=19176 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 07:02:59,020 p=19176 u=ubuntu n=ansible | TASK [backend : Pull Backend Docker image] ***************************************************************
+2025-06-04 07:03:16,154 p=19176 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 07:03:16,365 p=19176 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 07:03:16,384 p=19176 u=ubuntu n=ansible | TASK [backend : Stop existing container if running] ******************************************************
+2025-06-04 07:03:25,277 p=19176 u=ubuntu n=ansible | fatal: [backend-1]: FAILED! => {"changed": false, "msg": "Cannot create container when image is not specified!"}
+2025-06-04 07:03:25,278 p=19176 u=ubuntu n=ansible | ...ignoring
+2025-06-04 07:03:25,788 p=19176 u=ubuntu n=ansible | fatal: [backend-2]: FAILED! => {"changed": false, "msg": "Cannot create container when image is not specified!"}
+2025-06-04 07:03:25,789 p=19176 u=ubuntu n=ansible | ...ignoring
+2025-06-04 07:03:25,814 p=19176 u=ubuntu n=ansible | TASK [backend : Remove existing container] ***************************************************************
+2025-06-04 07:03:34,752 p=19176 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 07:03:35,002 p=19176 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 07:03:35,022 p=19176 u=ubuntu n=ansible | TASK [backend : Run backend container] *******************************************************************
+2025-06-04 07:03:44,014 p=19176 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 07:03:44,527 p=19176 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 07:03:44,594 p=19176 u=ubuntu n=ansible | RUNNING HANDLER [backend : Restart Docker] ***************************************************************
+2025-06-04 07:03:54,367 p=19176 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 07:03:54,558 p=19176 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 07:03:54,607 p=19176 u=ubuntu n=ansible | PLAY RECAP ***********************************************************************************************
+2025-06-04 07:03:54,608 p=19176 u=ubuntu n=ansible | backend-1                  : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2025-06-04 07:03:54,609 p=19176 u=ubuntu n=ansible | backend-2                  : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2025-06-04 07:11:57,273 p=19757 u=ubuntu n=ansible | [WARNING]: Unable to parse /home/ubuntu/ansible/inventories/hosts as an inventory source
+
+2025-06-04 07:11:57,278 p=19757 u=ubuntu n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-06-04 07:11:57,335 p=19757 u=ubuntu n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-06-04 07:11:57,339 p=19757 u=ubuntu n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: backend
+
+2025-06-04 07:12:34,761 p=19823 u=ubuntu n=ansible | backend-1 | CHANGED | rc=0 >>
+CONTAINER ID   IMAGE                      COMMAND                  CREATED         STATUS         PORTS                            NAMES
+0068c8347276   salahmo25/backend:latest   "python manage.py ru…"   8 minutes ago   Up 8 minutes   8000/tcp, 0.0.0.0:8000->80/tcp   backend_app
+
+2025-06-04 07:12:34,765 p=19823 u=ubuntu n=ansible | backend-2 | CHANGED | rc=0 >>
+CONTAINER ID   IMAGE                      COMMAND                  CREATED         STATUS         PORTS                            NAMES
+f71855541a4f   salahmo25/backend:latest   "python manage.py ru…"   8 minutes ago   Up 8 minutes   8000/tcp, 0.0.0.0:8000->80/tcp   backend_app
+
+2025-06-04 22:22:03,900 p=4358 u=ubuntu n=ansible | PLAY [Deploy Django App] ************************************************************************************************
+2025-06-04 22:22:03,923 p=4358 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-04 22:22:19,859 p=4358 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 22:22:21,080 p=4358 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 22:22:21,136 p=4358 u=ubuntu n=ansible | TASK [backend : Pull Backend Docker image] ******************************************************************************
+2025-06-04 22:22:29,759 p=4358 u=ubuntu n=ansible | ok: [backend-1]
+2025-06-04 22:22:29,763 p=4358 u=ubuntu n=ansible | ok: [backend-2]
+2025-06-04 22:22:29,784 p=4358 u=ubuntu n=ansible | TASK [backend : Stop existing container if running] *********************************************************************
+2025-06-04 22:22:38,986 p=4358 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 22:22:39,493 p=4358 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 22:22:39,508 p=4358 u=ubuntu n=ansible | TASK [backend : Remove existing container] ******************************************************************************
+2025-06-04 22:22:48,818 p=4358 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 22:22:50,035 p=4358 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 22:22:50,045 p=4358 u=ubuntu n=ansible | TASK [backend : Run backend container] **********************************************************************************
+2025-06-04 22:22:58,951 p=4358 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 22:23:00,186 p=4358 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 22:23:00,266 p=4358 u=ubuntu n=ansible | RUNNING HANDLER [backend : Restart Docker] ******************************************************************************
+2025-06-04 22:23:10,518 p=4358 u=ubuntu n=ansible | changed: [backend-1]
+2025-06-04 22:23:11,036 p=4358 u=ubuntu n=ansible | changed: [backend-2]
+2025-06-04 22:23:11,080 p=4358 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-04 22:23:11,080 p=4358 u=ubuntu n=ansible | backend-1                  : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-04 22:23:11,080 p=4358 u=ubuntu n=ansible | backend-2                  : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 00:49:36,257 p=7743 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 00:49:36,336 p=7743 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 00:49:48,787 p=7743 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 00:49:49,034 p=7743 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 00:49:49,083 p=7743 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 00:49:55,782 p=7743 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 00:49:56,683 p=7743 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 00:49:56,701 p=7743 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 00:50:05,599 p=7743 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 00:50:05,603 p=7743 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 00:50:05,622 p=7743 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 00:50:13,791 p=7743 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 00:50:14,019 p=7743 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 00:50:14,046 p=7743 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 00:50:22,596 p=7743 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 00:50:22,813 p=7743 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 00:50:23,005 p=7743 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 00:50:32,027 p=7743 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 00:50:32,462 p=7743 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 00:50:32,529 p=7743 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 00:50:32,530 p=7743 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 00:50:32,530 p=7743 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:00:13,936 p=8307 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 01:00:13,946 p=8307 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 01:00:25,503 p=8307 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:00:27,330 p=8307 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:00:27,390 p=8307 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 01:00:33,517 p=8307 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:00:37,402 p=8307 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:00:37,418 p=8307 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 01:00:45,197 p=8307 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:00:49,598 p=8307 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:00:49,614 p=8307 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 01:00:56,864 p=8307 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:01:00,753 p=8307 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:01:00,774 p=8307 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 01:01:08,255 p=8307 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:01:13,045 p=8307 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:01:13,138 p=8307 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 01:01:21,508 p=8307 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:01:28,403 p=8307 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:01:28,463 p=8307 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 01:01:28,463 p=8307 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:01:28,463 p=8307 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:14:45,126 p=9066 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 01:14:45,135 p=9066 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 01:14:58,525 p=9066 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:14:58,719 p=9066 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:14:58,764 p=9066 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 01:15:06,584 p=9066 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:15:09,759 p=9066 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:15:09,786 p=9066 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 01:15:18,676 p=9066 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:15:24,473 p=9066 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:15:24,489 p=9066 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 01:15:33,316 p=9066 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:15:41,052 p=9066 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:15:41,073 p=9066 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 01:15:50,009 p=9066 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:15:54,738 p=9066 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:15:54,828 p=9066 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 01:16:03,736 p=9066 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:16:09,664 p=9066 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:16:09,704 p=9066 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 01:16:09,705 p=9066 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:16:09,705 p=9066 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:22:13,588 p=9671 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 01:22:13,599 p=9671 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 01:22:25,251 p=9671 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:22:26,019 p=9671 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:22:26,069 p=9671 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 01:22:33,010 p=9671 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:22:33,871 p=9671 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:22:33,897 p=9671 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 01:22:41,145 p=9671 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:22:42,069 p=9671 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:22:42,091 p=9671 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 01:22:49,233 p=9671 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:22:50,158 p=9671 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:22:50,186 p=9671 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 01:22:57,929 p=9671 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:22:59,062 p=9671 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:22:59,133 p=9671 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 01:23:07,718 p=9671 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:23:08,729 p=9671 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:23:08,802 p=9671 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 01:23:08,802 p=9671 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:23:08,803 p=9671 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:32:23,895 p=10191 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 01:32:23,905 p=10191 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 01:32:35,563 p=10191 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:32:36,640 p=10191 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:32:36,693 p=10191 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 01:32:43,980 p=10191 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:32:45,202 p=10191 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:32:45,219 p=10191 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 01:32:53,703 p=10191 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:32:54,328 p=10191 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:32:54,346 p=10191 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 01:33:02,431 p=10191 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:33:02,772 p=10191 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:33:02,792 p=10191 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 01:33:11,326 p=10191 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:33:11,731 p=10191 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:33:11,802 p=10191 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 01:33:21,054 p=10191 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:33:21,461 p=10191 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:33:21,516 p=10191 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 01:33:21,517 p=10191 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:33:21,517 p=10191 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:49:05,061 p=10880 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 01:49:05,075 p=10880 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 01:49:15,963 p=10880 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:49:17,026 p=10880 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:49:17,078 p=10880 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 01:49:23,246 p=10880 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 01:49:23,437 p=10880 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 01:49:23,457 p=10880 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 01:49:30,696 p=10880 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:49:31,588 p=10880 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:49:31,604 p=10880 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 01:49:38,211 p=10880 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:49:38,904 p=10880 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:49:38,921 p=10880 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 01:49:46,122 p=10880 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:49:46,504 p=10880 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:49:46,594 p=10880 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 01:49:55,479 p=10880 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 01:49:55,872 p=10880 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 01:49:55,919 p=10880 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 01:49:55,920 p=10880 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 01:49:55,920 p=10880 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:03:23,736 p=11472 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 02:03:23,747 p=11472 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 02:03:35,213 p=11472 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:03:37,559 p=11472 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:03:37,612 p=11472 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 02:03:44,090 p=11472 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:03:45,627 p=11472 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:03:45,649 p=11472 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 02:03:52,898 p=11472 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:03:54,947 p=11472 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:03:54,969 p=11472 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 02:04:02,079 p=11472 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:04:04,370 p=11472 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:04:04,390 p=11472 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 02:04:11,904 p=11472 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:04:13,488 p=11472 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:04:13,568 p=11472 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 02:04:21,533 p=11472 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:04:23,109 p=11472 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:04:23,167 p=11472 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 02:04:23,167 p=11472 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:04:23,168 p=11472 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:20:05,762 p=12266 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 02:20:05,774 p=12266 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 02:20:17,549 p=12266 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:20:18,016 p=12266 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:20:18,082 p=12266 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 02:20:24,904 p=12266 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:20:25,673 p=12266 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:20:25,691 p=12266 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 02:20:33,259 p=12266 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:20:34,272 p=12266 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:20:34,281 p=12266 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 02:20:41,059 p=12266 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:20:42,271 p=12266 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:20:42,293 p=12266 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 02:20:49,418 p=12266 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:20:50,669 p=12266 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:20:50,742 p=12266 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 02:20:59,369 p=12266 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:21:00,602 p=12266 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:21:00,648 p=12266 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 02:21:00,648 p=12266 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:21:00,648 p=12266 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:46:42,657 p=13509 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 02:46:42,666 p=13509 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 02:46:55,377 p=13509 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:46:55,718 p=13509 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:46:55,776 p=13509 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 02:47:03,440 p=13509 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:47:07,430 p=13509 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:47:07,457 p=13509 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 02:47:15,492 p=13509 u=ubuntu n=ansible | fatal: [frontend-1]: FAILED! => {"changed": false, "msg": "Cannot create container when image is not specified!"}
+2025-06-05 02:47:15,493 p=13509 u=ubuntu n=ansible | ...ignoring
+2025-06-05 02:47:17,366 p=13509 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:47:17,384 p=13509 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 02:47:25,510 p=13509 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:47:27,453 p=13509 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:47:27,479 p=13509 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 02:47:38,713 p=13509 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:47:38,867 p=13509 u=ubuntu n=ansible | fatal: [frontend-1]: FAILED! => {"changed": false, "msg": "Error starting container e59fb9f8fd56ded4a65fa9a3b856f103aa1e5e340a5a1c6d86d3bc6c20c5ae98: 500 Server Error for http+docker://localhost/v1.50/containers/e59fb9f8fd56ded4a65fa9a3b856f103aa1e5e340a5a1c6d86d3bc6c20c5ae98/start: Internal Server Error (\"failed to set up container networking: driver failed programming external connectivity on endpoint frontend_app (5997f6b61395449eaada9cfb8a47e7b851daf2de562451ed43bec4423ff121d3): Bind for 0.0.0.0:80 failed: port is already allocated\")"}
+2025-06-05 02:47:38,934 p=13509 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 02:47:48,294 p=13509 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:47:48,329 p=13509 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 02:47:48,330 p=13509 u=ubuntu n=ansible | frontend-1                 : ok=4    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=1   
+2025-06-05 02:47:48,330 p=13509 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:47:54,606 p=13926 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 02:47:54,616 p=13926 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 02:48:04,745 p=13926 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:48:06,233 p=13926 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:48:06,281 p=13926 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 02:48:13,845 p=13926 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:48:17,579 p=13926 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:48:17,596 p=13926 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 02:48:25,385 p=13926 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:48:28,226 p=13926 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:48:28,246 p=13926 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 02:48:36,009 p=13926 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:48:36,935 p=13926 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:48:36,958 p=13926 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 02:48:44,917 p=13926 u=ubuntu n=ansible | fatal: [frontend-1]: FAILED! => {"changed": false, "msg": "Error starting container c8dd80b4af47f3c4da719aa87d1b88b39c19f3cbcba5ea74dfb85c1ee55968f0: 500 Server Error for http+docker://localhost/v1.50/containers/c8dd80b4af47f3c4da719aa87d1b88b39c19f3cbcba5ea74dfb85c1ee55968f0/start: Internal Server Error (\"failed to set up container networking: driver failed programming external connectivity on endpoint frontend_app (a2477659eda06755ac4fa10fa0f2a3c7fc272b99d333bb66daa4f690fe122fbb): Bind for 0.0.0.0:80 failed: port is already allocated\")"}
+2025-06-05 02:48:47,544 p=13926 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:48:47,601 p=13926 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 02:48:58,268 p=13926 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:48:58,306 p=13926 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 02:48:58,307 p=13926 u=ubuntu n=ansible | frontend-1                 : ok=4    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:48:58,307 p=13926 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:49:55,652 p=14356 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 02:49:55,665 p=14356 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 02:50:07,376 p=14356 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:50:07,377 p=14356 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:50:07,418 p=14356 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 02:50:15,034 p=14356 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:50:17,283 p=14356 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:50:17,304 p=14356 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 02:50:25,173 p=14356 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:50:26,093 p=14356 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:50:26,111 p=14356 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 02:50:33,976 p=14356 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:50:34,896 p=14356 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:50:34,917 p=14356 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 02:50:42,886 p=14356 u=ubuntu n=ansible | fatal: [frontend-1]: FAILED! => {"changed": false, "msg": "Error starting container 6fa0f008499f6cf3a424880721e3a14a53d6dc0aee6cefe60d816de70fd508f9: 500 Server Error for http+docker://localhost/v1.50/containers/6fa0f008499f6cf3a424880721e3a14a53d6dc0aee6cefe60d816de70fd508f9/start: Internal Server Error (\"failed to set up container networking: driver failed programming external connectivity on endpoint frontend_app (03c12a972426a3f6807ec1b00249c6c3449758242dc095b3d2a7d4b05ce95216): Bind for 0.0.0.0:80 failed: port is already allocated\")"}
+2025-06-05 02:50:43,707 p=14356 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:50:43,753 p=14356 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 02:50:54,048 p=14356 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:50:54,084 p=14356 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 02:50:54,085 p=14356 u=ubuntu n=ansible | frontend-1                 : ok=4    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:50:54,086 p=14356 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:53:23,398 p=14772 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 02:53:23,412 p=14772 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 02:53:36,069 p=14772 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:53:38,319 p=14772 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:53:38,368 p=14772 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 02:53:45,554 p=14772 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 02:53:47,614 p=14772 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:53:47,632 p=14772 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 02:53:55,709 p=14772 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:53:59,291 p=14772 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 02:53:59,311 p=14772 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 02:54:06,789 p=14772 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:54:10,141 p=14772 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:54:10,149 p=14772 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 02:54:18,553 p=14772 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:54:21,410 p=14772 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:54:21,487 p=14772 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 02:54:30,716 p=14772 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 02:54:33,390 p=14772 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 02:54:33,442 p=14772 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 02:54:33,442 p=14772 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 02:54:33,442 p=14772 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 03:12:14,028 p=15515 u=ubuntu n=ansible | PLAY [Deploy React App] *************************************************************************************************
+2025-06-05 03:12:14,038 p=15515 u=ubuntu n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2025-06-05 03:12:26,785 p=15515 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 03:12:26,988 p=15515 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 03:12:27,036 p=15515 u=ubuntu n=ansible | TASK [frontend : Pull frontend Docker image] ****************************************************************************
+2025-06-05 03:12:34,446 p=15515 u=ubuntu n=ansible | ok: [frontend-2]
+2025-06-05 03:12:34,448 p=15515 u=ubuntu n=ansible | ok: [frontend-1]
+2025-06-05 03:12:34,462 p=15515 u=ubuntu n=ansible | TASK [frontend : Stop existing container if running] ********************************************************************
+2025-06-05 03:12:43,266 p=15515 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 03:12:43,450 p=15515 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 03:12:43,473 p=15515 u=ubuntu n=ansible | TASK [frontend : Remove existing container] *****************************************************************************
+2025-06-05 03:12:51,442 p=15515 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 03:12:51,638 p=15515 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 03:12:51,661 p=15515 u=ubuntu n=ansible | TASK [frontend : Run frontend container] ********************************************************************************
+2025-06-05 03:13:00,666 p=15515 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 03:13:01,475 p=15515 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 03:13:01,570 p=15515 u=ubuntu n=ansible | RUNNING HANDLER [frontend : Restart Docker] *****************************************************************************
+2025-06-05 03:13:10,998 p=15515 u=ubuntu n=ansible | changed: [frontend-2]
+2025-06-05 03:13:12,537 p=15515 u=ubuntu n=ansible | changed: [frontend-1]
+2025-06-05 03:13:12,595 p=15515 u=ubuntu n=ansible | PLAY RECAP **************************************************************************************************************
+2025-06-05 03:13:12,595 p=15515 u=ubuntu n=ansible | frontend-1                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-06-05 03:13:12,595 p=15515 u=ubuntu n=ansible | frontend-2                 : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

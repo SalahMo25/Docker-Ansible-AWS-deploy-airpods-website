@@ -1,0 +1,4 @@
+# vars file for roles/frontend
+docker_image: salahmo25/frontend:latest
+app_port: 80
+container_name: frontend_app
